@@ -1,0 +1,28 @@
+; Manual unload PETG filament
+T0 ; Select tool
+M291 P"Would you like to unload filament?" S3
+M291 P"Please wait while the nozzle is being heated up" T100; Display message
+G10 S230 ; Heat up the current tool to 230C
+M116 ; Wait for the temperatures to be reached to 230C
+M117 "Extruding 10mm filament"; Display another message
+G1 E10 F200 ; extrude 10mm of filament at 300mm/min
+M400 ; Wait for the moves to finish
+M117 "Slow retracting 50mm filament"; Display another message
+G1 E-50 F200
+M400 ; Wait for the moves to finish
+M117 "Fast retracting 700mm filament"; Display another message
+G1 E-700 F3000
+M400 ; Wait for the moves to finish
+M84 E0:1 ; Turn off extruder drives 1 and 2
+M291 P"Please pull the filament out from the machine, then press OK." R"Unloading PETG" S2
+M291 P"Would you like to load a new filament?" R"Loading PETG" S3
+M291 P"Please wait while the nozzle is being heated up" T100; Display message
+G10 S230 ; Heat up the current tool to 230C
+M116 ; Wait for the temperatures to be reached to 230C
+M291 P"Please insert the filament at the back of the machine , then press OK" R"Loading PETG" S2; Display another message
+M291 P"Fast loading 650mm filament" R"Loading PETG" T20 S0; Display another message
+G1 E650 F3000
+M291 P"Extruding 100mm filament" R"Loading PETG" T15 S0; Display another message
+G1 E100 F200
+M400
+M291 P"Done!" R"Manual PETG load" T5 ; Display another message

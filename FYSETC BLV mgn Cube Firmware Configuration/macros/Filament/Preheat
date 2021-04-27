@@ -1,0 +1,4 @@
+T0
+G10 S195 ; Heat up the current tool to 195C
+M140 S60
+M291 P"Heating up to 195/60C" R"Preheat" S3 ; Display another message

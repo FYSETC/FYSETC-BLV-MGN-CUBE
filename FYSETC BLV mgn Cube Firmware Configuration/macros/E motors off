@@ -1,0 +1,3 @@
+; Turn extruder motors off
+M291 P"Extruder motor shutdown.." R"Motion system" S0 T2
+M84 E0:1

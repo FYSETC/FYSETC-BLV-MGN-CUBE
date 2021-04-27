@@ -1,0 +1,5 @@
+; move the hotend to 0,0
+M291 P"Moving hotend to 0,0 position.." R"Motion macro" S0 T2
+G1 Z10 F3000 		; move z up little to prevent scratching of surface
+G1 X0 Y0 F6000		; move sensor to center of the bed
+M291 P"Hotend reached to 0,0 position" R"Motion macro" S0 T2
