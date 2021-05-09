@@ -1,0 +1,31 @@
+First light group: display the combination of printer status and printing progress
+Start animation is blue light
+
+Printing status (9 kinds of display status):
+1 Idle color: 255,255,255 (pure white)
+2 Printing color: 64,255,64 (cyan)
+3 stopped Color: 0,255,0 (pure green)
+4 Configuration colors: 255,255,0 (pure yellow)
+5 Paused Color: 160,32,240 (purple)
+6 busy Color: 255,255,0 (pure yellow)
+7 Pausing Color: 160,32,240 (purple)
+8 Recovering Color: 255,255,0 (pure yellow)
+9 flashing flashing: 255,255,0 (pure yellow)
+
+The second lamp group: hotbed temperature
+Start animation is red light
+
+The third lamp group: Hotend 1 temperature
+Start animation is green
+
+Temperature indication description:
+(Hot bed: 0~125C; heater 1: 0~275C)
+A light indicates the temperature: maximum temperature/16
+
+The temperature of a lamp on the hot bed: 125/16
+Heater 1 lamp temperature: 275/16
+
+The color is idle (this is the "empty" color in the graphic. Think of it as a background) pure white
+Color heating (when the heater is heating, this is the color that represents the heater set point-this is the goal the heater achieves!) Brown
+Color heating completed (this shows the actual temperature of the heater-how close it is to the target) red
+Color cooling (after turning off the heater, the graph showing its temperature will switch to this color) blue
