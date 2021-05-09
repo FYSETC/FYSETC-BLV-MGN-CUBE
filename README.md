@@ -2,9 +2,9 @@
 This is a BLV project that comes from Ben Levi, and its name is BLV MGN Cube.We've made some optimizations on top of that, and we hope you like it.Fysetc is one of the suppliers of BLV. We really like and appreciate Ben's design .
 
 Some files by BLV mgn Cube
-![](E:/Github/FYSETC-BLV-MGN-CUBE/BLV_MGN_CUBE.jpg)
-![](E:/Github/FYSETC-BLV-MGN-CUBE/BLV_MGN_CUBE 01.jpg)
-![](E:/Github/FYSETC-BLV-MGN-CUBE/BLV_MGN_CUBE 02.jpg)
+![](E:/Github/FYSETC-BLV-MGN-CUBE/BLVMGNCUBE 00.jpg)
+![](E:/Github/FYSETC-BLV-MGN-CUBE/BLVMGNCUBE 00.jpg)
+![](E:/Github/FYSETC-BLV-MGN-CUBE/BLVMGNCUBE 00.jpg)
 
 1.BLV Official website：
 https://www.blvprojects.com/blv-mgn-cube-3d-printer
