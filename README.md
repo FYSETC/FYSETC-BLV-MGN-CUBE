@@ -3,11 +3,11 @@ This is a BLV project that comes from Ben Levi, and its name is BLV MGN Cube.We'
 
 Some files by BLV mgn Cube
 
-![](/BLVMGNCUBE 00.jpg)
+![](BLV_MGN_CUBE_01.jpg)
 
-![](/BLVMGNCUBE 00.jpg)
+![](BLV_MGN_CUBE_02.jpg)
 
-![](/BLVMGNCUBE 00.jpg)
+![](BLV_MGN_CUBE_03.jpg)
 
 1.BLV Official website：
 https://www.blvprojects.com/blv-mgn-cube-3d-printer
@@ -28,6 +28,7 @@ https://github.com/FYSETC/FYSETC-Duet
 https://duet3d.dozuki.com/Wiki/Step_by_step_guide
 
 6.Advantage:
+
 1）Replace Arduino pro mini and LM2596 with an integrated module, the plug-in is simple and firm, and the installation is convenient
 
 2）The original power supply is only 450W, and the total power of the machine exceeds 400W, which poses a safety hazard. We use high-power 600W Meanwell power supply, which can provide powerful power to the machine, and the machine runs more stable.
