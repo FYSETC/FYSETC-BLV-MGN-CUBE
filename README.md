@@ -17,7 +17,7 @@ These print files are suitable for FYSETC BLV mgn Cube 3D printer. We have made 
 https://www.thingiverse.com/thing:4837966
 
 3.3D image display website：
-https://myhub.autodesk360.com/ue2bf7842/g/shares/SHabee1QT1a327cf2b7a13d3988f9c7252
+https://myhub.autodesk360.com/ue2bf7842/g/shares/SHabee1QT1a327cf2b7a13d3988f9c72527c
 
 4.Motherboard and LCD：
 
