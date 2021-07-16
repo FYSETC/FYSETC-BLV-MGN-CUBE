@@ -28,6 +28,7 @@ https://github.com/FYSETC/FYSETC-Duet
 https://duet3d.dozuki.com/Wiki/Step_by_step_guide
 
 6.FYSETC BLV mgn Cube kit assembly video ：
+
 Profile frame installation：https://youtu.be/OTl3H-6wCEU
 
 Step 1：https://youtu.be/-2VnD1bWH-g
