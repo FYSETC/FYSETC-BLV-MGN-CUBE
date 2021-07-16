@@ -27,7 +27,20 @@ https://github.com/FYSETC/FYSETC-Duet
 
 https://duet3d.dozuki.com/Wiki/Step_by_step_guide
 
-6.Advantage:
+6.FYSETC BLV mgn Cube kit assembly video ：
+Profile frame installation：https://youtu.be/OTl3H-6wCEU
+Step 1：https://youtu.be/-2VnD1bWH-g
+Step 2：https://youtu.be/fzRfXD17uyA
+Step 3：https://youtu.be/oZXPe5NAmO8
+Step 4：https://youtu.be/ZxM9j8p_UtI
+Step 5：https://youtu.be/OYkw1OxLap4
+Step 6：https://youtu.be/LPNwPUBQ0m0
+Step 7：https://youtu.be/KnPkUY0QOnw
+
+7.Facebook group：
+https://www.facebook.com/groups/238970713918171
+
+8.Advantage:
 
 1）Replace Arduino pro mini and LM2596 with an integrated module, the plug-in is simple and firm, and the installation is convenient
 
@@ -69,7 +82,7 @@ https://duet3d.dozuki.com/Wiki/Step_by_step_guide
 
 20）Supports shutdown after printing. The machine will shut down after the temperature has cooled down after printing, which is energy-saving and environmentally friendly.
 
-7.Go to buy link ：
+9.Go to buy link ：
 https://www.aliexpress.com/item/1005002571374641.html?spm=2114.12010615.8148356.3.56663b88GkoOJs
 
 
