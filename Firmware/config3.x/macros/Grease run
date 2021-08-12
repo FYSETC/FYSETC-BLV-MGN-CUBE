@@ -1,0 +1,18 @@
+; moving the rails after greasing
+
+M291 P"Homing all axiss" R"Grease run" S0 T5	; display msg
+G28						; Home all axis
+M291 P"Running.." R"Grease run" S0 T0 S1	; display msg
+G1 Z50 F50000
+G1 Z10 F50000 	
+G1 X0 Y0 F50000
+G1 X300 Y300 F50000
+G1 X0 Y0 F50000
+G1 X300 Y300 F50000
+G1 X0 Y0 F50000
+G1 X300 Y300 F50000
+G1 X0 Y0 F50000
+G1 X300 Y300 F50000
+G1 X0 Y0 F50000
+M291 P"Grease run done !" R"Grease run" S0 T3
+

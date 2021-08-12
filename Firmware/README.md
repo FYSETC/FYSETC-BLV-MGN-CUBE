@@ -1,6 +1,20 @@
-# config
+# RRF firmware
 
-`config` folder contains our RRF config for our BLV machine. Please copy `config` folder contents to your sdcard. And then insert sdcard to your machine.
+## RRF 2.x
+
+The factory firmware version is RRF 2.x.`config2.x` folder contains RRF 2.x config for the BLV machine. Please copy `config 2.x` folder contents to your sdcard. And then insert sdcard to your machine.
+
+## Upgrade to RRF 3.x
+
+`config3.x` folder contains RRF 3.x firmware and its config for the machine. Follow the following steps to upgrage RRF from 2.x to 3.x.
+
+- Copy `config 3.x` folder contents to your sdcard. 
+
+- Insert sdcard to your machine.
+
+- Send `M997 S0` command to upgrade the firmware version to 3.x
+
+- Send `M115` command to check firmware version, it should be 3.x
 
 # NeoPixel_Ring light
 

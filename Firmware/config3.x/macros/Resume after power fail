@@ -1,0 +1,2 @@
+; resumes the print after power lose
+M916			;; resumes after power fail - execute resurrect.g

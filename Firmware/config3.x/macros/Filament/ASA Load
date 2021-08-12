@@ -1,0 +1,14 @@
+; Load filament
+T0
+M291 P"Please make sure no filament is in the filament tube , then press OK" R"Manual ASA load" S3 ; Display another message
+M291 P"Please wait while the nozzle is being heated up" R"Manual ASA load" T100 ; Display message
+G10 S260 ; Heat up the current tool to 260C
+M116 ; Wait for the temperatures to be reached to 260C
+M291 P"Please insert the filament at the back of the machine , then press OK" R"Manual ASA load" S3 ; Display another message
+M291 P"Fast loading 650mm filament" R"Manual ASA load" T20 ; Display another message
+G1 E650 F3600
+M291 P"Extruding 200mm filament" R"Manual ASA load" T15 ; Display another message
+G1 E200 F300
+M84 P3 E0:1		; turn extruder motors off so the user can feed by hand
+M400
+M291 P"Done!" R"Manual ASA load" T5 ; Display another message

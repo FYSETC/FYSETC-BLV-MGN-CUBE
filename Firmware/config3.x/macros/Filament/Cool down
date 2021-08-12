@@ -1,0 +1,4 @@
+T0
+G10 S0 ; Heat up the current tool to 0C
+M140 S0
+M291 P"Cooling down to 0/00C" R"Preheat PLA" S3 ; Display another message

@@ -1,0 +1,2 @@
+M291 P"All the motors disabled" R"Motion system" S0 T2
+M84 ;disable all motors
